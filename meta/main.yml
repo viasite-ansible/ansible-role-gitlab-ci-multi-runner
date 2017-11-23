@@ -19,6 +19,4 @@ galaxy_info:
     - continious
     - integration
 
-  issue_tracker_url: https://github.com/gtrafimenkov/ansible-role-gitlab-ci-multi-runner/issues
-
 dependencies: []
