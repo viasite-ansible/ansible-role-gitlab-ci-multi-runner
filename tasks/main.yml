@@ -14,7 +14,7 @@
 # when multirunner is not already installed
 
 - name: Check if GitLab multirunner is already installed
-  shell: gitlab-ci-multi-runner --version || echo "multirunner not found"
+  shell: gitlab-runner --version || echo "multirunner not found"
   failed_when: false
   changed_when: false
   register: test_run_result
